@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prac4.MainPage" x:Name="Page1">
+
+    <StackLayout Padding="20">
+        <Label Text="Выберите марку автомобиля:" />
+        <RadioButton Content="1. Пежо" GroupName="CarBrand" CheckedChanged="OnRadioButtonCheckedChanged"/>
+        <RadioButton Content="2. Лада" GroupName="CarBrand" CheckedChanged="OnRadioButtonCheckedChanged"/>
+        <RadioButton Content="3. Рено" GroupName="CarBrand" CheckedChanged="OnRadioButtonCheckedChanged"/>
+        <RadioButton Content="4. Нива" GroupName="CarBrand" CheckedChanged="OnRadioButtonCheckedChanged"/>
+        <RadioButton Content="5. Форд" GroupName="CarBrand" CheckedChanged="OnRadioButtonCheckedChanged"/>
+        <RadioButton Content="6. Вольво" GroupName="CarBrand" CheckedChanged="OnRadioButtonCheckedChanged"/>
+        <RadioButton Content="7. БМВ" GroupName="CarBrand" CheckedChanged="OnRadioButtonCheckedChanged"/>
+        <RadioButton Content="8. Мерседес" GroupName="CarBrand" CheckedChanged="OnRadioButtonCheckedChanged"/>
+
+        <Entry x:Name="OutputField" IsReadOnly="True" Placeholder="Результат" />
+    </StackLayout>
+
+</ContentPage>
