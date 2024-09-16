@@ -5,8 +5,8 @@
              Title="Info" x:Name="Innfo">
     <StackLayout Padding="20">
         <Label Text="О программе" FontSize="24" />
-        <Label Text="ФИО Разработчика: Ваше ФИО" />
-        <Label Text="Номер работы: 1" />
+        <Label Text="ФИО Разработчика: Девяткин Вадим" />
+        <Label Text="Номер работы: 4" />
         <Label Text="Формулировка задания: Определение марки автомобиля по номеру." />
     </StackLayout>
 </ContentPage>
